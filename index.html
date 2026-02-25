@@ -207,14 +207,22 @@
         <div class="content has-text-justified">
           <p>
             GeoGS-SLAM integrates 3D Gaussian Splatting with learned geometric priors in a unified framework for monocular dense reconstruction.
+            Our approach consists of four core components:
           </p>
-          <p>
-            Our approach consists of four core components: 
-            <em>Geometric Prior Prediction</em> leverages a pre-trained model to produce priors of camera parameters and scene geometry from RGB keyframes; 
-            <em>Map Expansion</em> updates the Gaussian map through direct primitive sampling; 
-            <em>Joint Optimization</em> refines both the map and poses via rendering-based photometric and geometric loss minimization; 
-            and <em>Online Loop Closure</em> with pose graph optimization further ensures global consistency.
-          </p>
+          <ul>
+            <li>
+              <em>Geometric Prior Prediction</em> leverages a pre-trained model to produce priors of camera parameters and scene geometry from RGB keyframes; 
+            </li>
+            <li>
+              <em>Map Expansion</em> updates the Gaussian map through direct primitive sampling; 
+            </li>
+            <li>
+              <em>Joint Optimization</em> refines both the map and poses via rendering-based photometric and geometric loss minimization; 
+            </li>
+            <li>
+              and <em>Online Loop Closure</em> with pose graph optimization further ensures global consistency.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
